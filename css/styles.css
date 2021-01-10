@@ -7,7 +7,7 @@
     background-attachment: fixed;
 }
 .layer{
-    background-color: rgba(177, 0, 29, 0.7);
+    background-color: rgba(5, 8, 174, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -19,6 +19,10 @@
     padding: 40px 180px !important;
     margin: auto !important;
   }
+}
+#skills{
+  padding: 0 !important;
+  margin: auto;
 }
 .top-container{
   position: relative;
@@ -56,7 +60,7 @@ body, html {
 font-weight: lighter;
 }
 #section{
-  color: #B1001D;
+  color: #0508AE;
   font-size: 54px !important;
   text-align: center;
   font-weight: lighter;
@@ -66,7 +70,7 @@ font-weight: lighter;
 
 h3{
   font-weight: lighter;
-  color: #B1001D;
+  color: #0508AE;
   margin-bottom: 20px !important;
 }
 .experience {
@@ -92,7 +96,7 @@ p{
   margin-right: auto;
 
 }
-img{
+#imgProf{
   display: block;
   height: 100%;
   width: auto;
@@ -101,7 +105,10 @@ img{
 
 #experience{
   background-color: #F2EED8;
+  margin-bottom: 30px !important;
+  padding-bottom: 20px !important;
 }
+
 .lead{
   text-align: center;
   font-size: medium;
@@ -111,9 +118,29 @@ hr{
   margin: 40px 0 !important;
 }
 svg{
-  fill: #B1001D;
+  fill: #0508AE;
 }
 .location{
-  color:#B1001D;
+  color:#0508AE;
   margin-top:20px;
 }
+
+.no-bullets{
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.filled{
+  color:#0508AE !important; 
+  
+}
+.ability-score{
+  float:right;
+}
+.ability{
+  font-weight: 300 !important;
+}
+li:hover .ability-score{
+  letter-spacing: 1px;
+}
+

@@ -7,11 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title>My personal site</title>
 </head>
 <body>
-    <div class="background">
-        
+    <div class="background">  
         <div class="layer">
             <div class="top-container container">
                 <h1 id="h1" >Juan Felipe Rubio</h1>
@@ -36,7 +36,7 @@
             </div>
             <div class="col-md-4 ">
                 <div class="cropper">
-                    <img src="./images/descarga3.png">
+                    <img id="imgProf" src="./images/descarga3.png">
                 </div>
             </div>
             <div class="col-md-4">
@@ -274,13 +274,407 @@
     </div>
     <div id="abilities" class="container">
         <h2 id="section"> Abilities </h2>
+        <div  id="skills" class="container">
+            <h3>Technologies</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets ">
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            Object-oriented Programming
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            SCRUM
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            UML
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            SQL
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                                Visual Studio Code
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                                Eclipse
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Google Cloud Platform (GCP)
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            HTML
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                                CSS
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Pycharm
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            DJango
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            MVC Pattern
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            REST
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                
+                    </ul>
+                </div>  
+                <div class="col-md-6">
+                    <ul class="no-bullets">
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Git
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            MongoDB
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            AWS
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Illustrator
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Photoshop
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            Angular
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability">
+                            ReactJS
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div  id="skills" class="container">
+            <h3>Programming Languages</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="no-bullets ">
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                                Java
+                                <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMS45OTggNTExLjk5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjk5OCA1MTEuOTk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojREIzODBFOyIgZD0iTTI1My40NjQsOTQuODY5Yy0yMy42NTgsMTYuNjM5LTUwLjQ3MSwzNS40OTgtNjQuODM4LDY2LjY5OQ0KCQljLTI0Ljk1NCw1NC40MzUsNTEuMDYyLDExMy44MTIsNTQuMzExLDExNi4zMTNjMC43NTUsMC41ODEsMS42NTksMC44NzEsMi41NiwwLjg3MWMwLjk1NywwLDEuOTE1LTAuMzI3LDIuNjkzLTAuOTc5DQoJCWMxLjUwOS0xLjI2MiwxLjkzNy0zLjQwNiwxLjAzMS01LjE1MmMtMC4yNzUtMC41My0yNy41NjEtNTMuNTMtMjYuNTQ3LTkxLjU1MmMwLjM1OS0xMy4yNDMsMTguODkyLTI4LjI2NiwzOC41MTItNDQuMTcxDQoJCWMxNy45Ny0xNC41NjgsMzguMzQtMzEuMDc5LDUwLjI1OC01MC4zOTRjMjYuMTY0LTQyLjUxNi0yLjkxNi04NC4zMjItMy4yMTMtODQuNzRjLTEuMTU1LTEuNjIyLTMuMjg3LTIuMjA5LTUuMTEtMS40MQ0KCQljLTEuODIxLDAuODA0LTIuODMsMi43NzMtMi40MTQsNC43MmMwLjA1OSwwLjI3Nyw1LjcxNCwyNy45MjMtMTAuMDIyLDU2LjQwNkMyODQuMjAzLDczLjI1LDI2OS45NTksODMuMjY4LDI1My40NjQsOTQuODY5eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEQjM4MEU7IiBkPSJNMzUzLjEzNywxMTMuNjE3YzEuNjY5LTEuMjU3LDIuMTU5LTMuNTUsMS4xNS01LjM4Yy0xLjAxMS0xLjgzLTMuMjExLTIuNjM3LTUuMTY1LTEuODk1DQoJCWMtNC4wMTksMS41MjgtOTguNDE2LDM3LjkxNS05OC40MTYsODEuODhjMCwzMC4zMDcsMTIuOTQ2LDQ2LjMxNywyMi4zOTksNTguMDA5YzMuNzA4LDQuNTg2LDYuOTA5LDguNTQ2LDcuOTY0LDExLjkyNw0KCQljMi45Nyw5Ljc0My00LjA2NiwyNy4zNTMtNy4wMjUsMzMuMzE3Yy0wLjg1MywxLjcxNC0wLjQzNSwzLjc5MiwxLjAxNiw1LjA0NGMwLjc4NCwwLjY3NywxLjc2MywxLjAyMSwyLjc0MywxLjAyMQ0KCQljMC44MzQsMCwxLjY3Mi0wLjI0OCwyLjM5Ni0wLjc1MmMxLjYyMy0xLjEyOCwzOS42NjctMjguMDI2LDMyLjg0NC02MC40MzNjLTIuNTQyLTEyLjMxOC04LjU5NS0yMS4zMTgtMTMuOTM2LTI5LjI2DQoJCWMtOC4yNzQtMTIuMzA1LTE0LjI1LTIxLjE5My01LjE4NC0zNy42MDlDMzA0LjU0NSwxNTAuMzM4LDM1Mi42NSwxMTMuOTgxLDM1My4xMzcsMTEzLjYxN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTA3LjQxOCwyOTguMjM2Yy0xLjYxOCw0Ljg0NS0wLjg1NCw5LjY1MSwyLjIwNywxMy45MDNjMTAuMjMzLDE0LjIwNyw0Ni40OCwyMi4wMjksMTAyLjA2OCwyMi4wMjkNCgkJYzAuMDAzLDAsMC4wMDUsMCwwLjAwNywwYzcuNTMyLDAsMTUuNDg0LTAuMTQ4LDIzLjYyOS0wLjQ0Yzg4Ljg3NS0zLjE4MSwxMjEuODM5LTMwLjg2OSwxMjMuMTk5LTMyLjA0Ng0KCQljMS40ODItMS4yODMsMS44NzgtMy40MTksMC45NTctNS4xNDdjLTAuOTIyLTEuNzI3LTIuOTA5LTIuNTk1LTQuODA4LTIuMDcyYy0zMS4zMDEsOC41NDYtODkuNzQ4LDExLjU4LTEzMC4yODgsMTEuNTgNCgkJYy00NS4zNjMsMC02OC40NjUtMy4yNjgtNzQuMTIxLTUuNjgxYzIuOTAyLTMuOTg1LDIwLjgwMi0xMS4xMDEsNDIuOTgzLTE1LjQ2NGMyLjEyLTAuNDE2LDMuNTc3LTIuMzc0LDMuMzY3LTQuNTI0DQoJCXMtMi4wMTYtMy43OS00LjE3Ny0zLjc5QzE3OS40MzksMjc2LjU4NCwxMTQuMjM0LDI3Ny42MjgsMTA3LjQxOCwyOTguMjM2eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNNDA0LjgxMiwyNjkuNzE4Yy0xOC4zMzEsMC0zNS43MTQsOS4xODgtMzYuNDQ2LDkuNTc3Yy0xLjY5NSwwLjkwOC0yLjU1NSwyLjg1Mi0yLjA5LDQuNzINCgkJYzAuNDY3LDEuODY1LDIuMTQ0LDMuMTc2LDQuMDY3LDMuMTc4YzAuMzg5LDAsMzkuMTAyLDAuMzE3LDQyLjYwOCwyMi40MzZjMy4xMDYsMTkuMDgyLTM2LjYyOSw1MC01Mi4yMDIsNjAuMzA0DQoJCWMtMS42ODIsMS4xMTMtMi4zMzUsMy4yNjMtMS41NTQsNS4xMjNjMC42NjUsMS41ODMsMi4yMDYsMi41NzMsMy44NjgsMi41NzNjMC4yOSwwLDAuNTg0LTAuMDMsMC44NzYtMC4wOTINCgkJYzMuNjk2LTAuNzkxLDkwLjQwNi0xOS44OTksODEuMjM4LTcwLjM4NEM0MzkuNTg0LDI3Ni4yMTMsNDIwLjEzOCwyNjkuNzE4LDQwNC44MTIsMjY5LjcxOHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTM0NS4zNDcsMzYzLjc1NWMwLjMwMi0xLjYxNy0wLjM3MS0zLjI2Mi0xLjcxNy00LjIwN2wtMjAuNzkxLTE0LjU2Mw0KCQljLTEuMDE0LTAuNzEtMi4yOTUtMC45MzMtMy40ODUtMC42MThjLTAuMjE3LDAuMDU1LTIxLjk1OSw1Ljc3MS01My41MjUsOS4yNzZjLTEyLjUyOCwxLjQwNS0yNi41NiwyLjE0Ny00MC41ODIsMi4xNDcNCgkJYy0zMS41NTgsMC01Mi4xOTItMy43MDgtNTUuMTk3LTYuNDI4Yy0wLjM5OC0wLjc2NC0wLjI3Mi0xLjExMS0wLjIwMS0xLjMwNGMwLjU0Ni0xLjUxOCwzLjQ3Mi0zLjMyMiw1LjM1OC00LjAzNg0KCQljMi4wODMtMC43NzEsMy4yMDYtMy4wMzMsMi41NTgtNS4xNTdjLTAuNjQ2LTIuMTI3LTIuODM3LTMuMzc4LTQuOTk5LTIuODU5Yy0yMC44NTYsNS4wMzMtMzEuMDU0LDEyLjA3MS0zMC4zMTIsMjAuOTE4DQoJCWMxLjMxOCwxNS42ODYsMzcuNjUsMjMuNzM3LDY4LjM2NSwyNS44NjVjNC40MTcsMC4zMDIsOS4xOTQsMC40NTUsMTQuMTk1LDAuNDU1YzAuMDAzLDAsMC4wMDUsMCwwLjAwOCwwDQoJCWM1MS4wNzQsMCwxMTYuNTUtMTYuMDI1LDExNy4yMDQtMTYuMTg4QzM0My44MjUsMzY2LjY2NiwzNDUuMDQ0LDM2NS4zNzUsMzQ1LjM0NywzNjMuNzU1eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTg4LjYwMiwzOTcuNDE5YzEuNTc1LTEuMDI0LDIuMjczLTIuOTcxLDEuNzE0LTQuNzY0Yy0wLjU1Ny0xLjc5My0yLjIzNC0yLjk3MS00LjExOC0yLjk0Ng0KCQljLTIuNzk1LDAuMDc0LTI3LjM0OSwxLjE4Mi0yOS4wNjgsMTYuODE1Yy0wLjUyLDQuNjcyLDAuODE4LDguOTQxLDMuOTc5LDEyLjY4NmM4LjgxNiwxMC40NDgsMzIuNjE0LDE2LjY1OCw3Mi43NDEsMTguOTg0DQoJCWM0Ljc0NywwLjI4NSw5LjU2OSwwLjQyOCwxNC4zMzQsMC40MjhjNTEuMDE1LDAsODUuMzczLTE1Ljk3Myw4Ni44MTItMTYuNjUzYzEuMzk1LTAuNjYsMi4zMTUtMi4wMzEsMi4zOTctMy41NzENCgkJcy0wLjY4Ny0zLjAwMS0yLjAwMy0zLjgwNmwtMjYuMjc1LTE2LjA0Yy0wLjkxMi0wLjU1Ni0yLjAwMy0wLjc0LTMuMDQzLTAuNTI3Yy0wLjE2NiwwLjAzNS0xNi44NDksMy40OTUtNDIuMDI2LDYuOTEzDQoJCWMtNC43NjQsMC42NDgtMTAuNzMsMC45NzctMTcuNzMsMC45NzdjLTI1LjE1LDAtNTMuMTI0LTQuMTA5LTU4LjQ4OS02LjhDMTg3Ljc0OSwzOTguNjEzLDE4Ny44NDgsMzk3Ljk3NSwxODguNjAyLDM5Ny40MTl6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzczQTFGQjsiIGQ9Ik0yMjQuNDA4LDQ4Ni44NWMxMTYuODU0LTAuMDk5LDE3OS41NzEtMjAuODgsMTkxLjY1My0zMy45NTdjNC4yNzctNC42MjYsNC43MzktOS4wMDYsNC4zNzYtMTEuODY3DQoJCWMtMC44OTgtNy4wNC03LjMxMS0xMS4zNS04LjAzOC0xMS44MThjLTEuNzU0LTEuMTI4LTQuMTA4LTAuODMzLTUuNDc2LDAuNzQ1Yy0xLjM2NSwxLjU3OC0xLjM5NywzLjg4NC0wLjAyNyw1LjQ2MQ0KCQljMC43MzcsMC45NDgsMS4xNjMsMi41MzUtMC45OTIsNC42OTJjLTQuODMsNC41MTEtNTMuNTQ1LDE4LjIwNC0xMzQuNjU2LDIyLjMxOGMtMTEuMTExLDAuNTc3LTIyLjc2NSwwLjg3MS0zNC42MzYsMC44NzMNCgkJYy03Mi42MjMsMC0xMjUuNzcyLTkuOTQ4LTEzMi43NDktMTUuNzQ0YzIuNjg5LTMuODY0LDIxLjQ4OS0xMC4wMzcsNDEuNDgyLTEzLjUyOWMyLjI1My0wLjM5MywzLjc3NS0yLjUxNiwzLjQyNi00Ljc3Ng0KCQljLTAuMzQ5LTIuMjU5LTIuNDMyLTMuODE0LTQuNzA5LTMuNTE5Yy0wLjU2NCwwLjA3Ny0yLjQ3OCwwLjE5MS00LjY5NCwwLjMyN2MtMzIuOTg4LDIuMDE0LTcxLjEwOSw2LjUwMy03My4wOTgsMjMuNQ0KCQljLTAuNjA0LDUuMTc5LDAuOTM1LDkuODgxLDQuNTc2LDEzLjk3M2M4LjkwOSwxMC4wMSwzNC41MTYsMjMuMzE5LDE1My41NTgsMjMuMzE5QzIyNC40MDYsNDg2Ljg1LDIyNC40MDYsNDg2Ljg1LDIyNC40MDgsNDg2Ljg1eiINCgkJLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTQzOS4wMTMsNDU2LjU3OGMtMS42NTItMC43NjQtMy42MDQtMC4zNzgtNC44MzYsMC45NTJjLTAuMTcxLDAuMTg1LTE3Ljc0LDE4LjU1Ni03MC41NjQsMjkuMzQ0DQoJCWMtMjAuMjIzLDQuMDUyLTU4LjE4Myw2LjEwNy0xMTIuODI2LDYuMTA3Yy01NC43NDUsMC0xMDYuODM4LTIuMTU0LTEwNy4zNTctMi4xNzZjLTIuMTc2LTAuMTA2LTQuMDM3LDEuNDc2LTQuMzMzLDMuNjE4DQoJCWMtMC4yOTcsMi4xNCwxLjA4Myw0LjE1OCwzLjE4NCw0LjY1OGMwLjU0MiwwLjEyOCw1NS4xMzUsMTIuOTE4LDEyOS43NzksMTIuOTE4YzM1LjgwMSwwLDcwLjYzOS0yLjkwNywxMDMuNTQ4LTguNjQ1DQoJCWM2MS4zNjEtMTAuNzU3LDY1LjY1Ny00MS4xODMsNjUuODEtNDIuNDczQzQ0MS42MzIsNDU5LjA3OCw0NDAuNjYyLDQ1Ny4zNDIsNDM5LjAxMyw0NTYuNTc4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            Python
+                            <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtMjIwdjExMGMwIDExLjA0Njg3NSA4Ljk1MzEyNSAyMCAyMCAyMHY3MWMwIDQxLjQyMTg3NSAzMy41NzgxMjUgNzUgNzUgNzVoNzBjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di00MWgtODkuNTc0MjE5Yy04LjA3ODEyNSAwLTE1LjAyNzM0My02LjIwNzAzMS0xNS40MTAxNTYtMTQuMjczNDM4LS40MDYyNS04LjYxNzE4NyA2LjQ2MDkzNy0xNS43MjY1NjIgMTQuOTg0Mzc1LTE1LjcyNjU2MmgxNjFjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di03MGMwLTQxLjQyMTg3NS0zMy41NzgxMjUtNzUtNzUtNzV6bTAgMCIgZmlsbD0iI2ZlZWY1NSIvPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtOTB2Mjc2aDM1YzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNDFoLTg5LjU3NDIxOWMtOC4wNzgxMjUgMC0xNS4wMjczNDMtNi4yMDcwMzEtMTUuNDEwMTU2LTE0LjI3MzQzOC0uNDA2MjUtOC42MTcxODcgNi40NjA5MzctMTUuNzI2NTYyIDE0Ljk4NDM3NS0xNS43MjY1NjJoMTYxYzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNzBjMC00MS40MjE4NzUtMzMuNTc4MTI1LTc1LTc1LTc1em0wIDAiIGZpbGw9IiNmZWRjMDAiLz48cGF0aCBkPSJtMTg2IDI1NmgxNDBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1aC03MGMtNDEuMzU1NDY5IDAtNzUgMzMuNjQ0NTMxLTc1IDc1djQxaDkwYzguMjg1MTU2IDAgMTUgNi43MTQ4NDQgMTUgMTVzLTYuNzE0ODQ0IDE1LTE1IDE1aC0xNjFjLTQxLjM1NTQ2OSAwLTc1IDMzLjY0NDUzMS03NSA3NXY3MGMwIDQxLjM1NTQ2OSAzMy42NDQ1MzEgNzUgNzUgNzVoNzF2LTcwYzAtMjIuMDg5ODQ0IDE3LjkxMDE1Ni00MCA0MC00MHptMCAwIiBmaWxsPSIjNzhlMGVhIi8+PHBhdGggZD0ibTI5MSAwaC0zNXYyNTZoNzBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1em0wIDAiIGZpbGw9IiMzY2NjZGQiLz48cGF0aCBkPSJtMjM2IDYxYzAgOC4yODUxNTYtNi43MTQ4NDQgMTUtMTUgMTVzLTE1LTYuNzE0ODQ0LTE1LTE1IDYuNzE0ODQ0LTE1IDE1LTE1IDE1IDYuNzE0ODQ0IDE1IDE1em0wIDAiIGZpbGw9IiM1YTVhNmUiLz48cGF0aCBkPSJtMzA2IDQ1MWMwIDguMjg1MTU2LTYuNzE0ODQ0IDE1LTE1IDE1cy0xNS02LjcxNDg0NC0xNS0xNSA2LjcxNDg0NC0xNSAxNS0xNSAxNSA2LjcxNDg0NCAxNSAxNXptMCAwIiBmaWxsPSIjNDY0NjVhIi8+PC9zdmc+" />
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            C++
+                            <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzJEM0EzRTsiIGQ9Ik01MTIsMjU2YzAsNDUuMjY1LTExLjc0NSw4Ny43ODItMzIuMzYsMTI0LjY3N2MwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWMtNi43MjksOS43OC0xNC4xMjcsMTkuMDY5LTIyLjEyLDI3Ljc5NGMtMzQuOTk0LDM4LjI1NC04MS40NSw2NS44MzktMTMzLjkzNSw3Ny4zMTINCglDMjkzLjI2MSw1MDkuOTYyLDI3NC44NzEsNTEyLDI1Niw1MTJzLTM3LjI3MS0yLjAzOC01NC45ODMtNS45MjVjLTUyLjQ3NS0xMS40ODMtOTguOTMxLTM5LjA1OC0xMzMuOTE0LTc3LjMwMg0KCWMtNy43NTMtOC40NjQtMTQuOTQyLTE3LjQ1LTIxLjQ5NC0yNi44OTZjLTQuNzU0LTYuODIzLTkuMTc0LTEzLjg5Ny0xMy4yNDktMjEuMTkxYzAtMC4wMSwwLTAuMDEsMC0wLjAxDQoJQzExLjc0NSwzNDMuNzgyLDAsMzAxLjI2NSwwLDI1NkMwLDExNC42MTUsMTE0LjYxNSwwLDI1NiwwUzUxMiwxMTQuNjE1LDUxMiwyNTZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDA0Mjg0OyIgZD0iTTQ3OS43NjUsMTgxLjkwNnYxOTUuMDgyYzAsMS4yMzMtMC4wNDIsMi40NjYtMC4xMjUsMy42OTkNCgljLTkuNzA3LDE3LjM3Ny0yMS4zODksMzMuNDk5LTM0LjczMiw0OC4wNzZsLTEzMy45MzUsNzcuMzEyQzI5My4yNjEsNTA5Ljk2MiwyNzQuODcxLDUxMiwyNTYsNTEycy0zNy4yNzEtMi4wMzgtNTQuOTgzLTUuOTI1DQoJbC0xMTAuMDctNjMuNTNsLTIzLjg0NS0xMy43NzJjLTEzLjM1NC0xNC41NzYtMjUuMDM2LTMwLjcxLTM0Ljc0My00OC4wODZjLTAuMDg0LTEuMjMzLTAuMTI1LTIuNDY2LTAuMTI1LTMuNjk5VjE4MS45MDYNCgljMC0xOS41ODEsMTAuNDU5LTM3LjY2OSwyNy4zOTctNDcuNDdsMTY4Ljk3LTk3LjU0MWMxNi45NTktOS44MDEsMzcuODM2LTkuODAxLDU0Ljc5NCwwbDEzNS4xNTgsNzguMDMzbDMzLjgxMywxOS41MDgNCglDNDY5LjMwNSwxNDQuMjM4LDQ3OS43NjUsMTYyLjMyNSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojNjM5OUQ0OyIgZD0iTTQ3Mi44MzcsMTU1LjI2MUw0NS42MSw0MDEuODc4Yy00Ljc1NC02LjgyMy05LjE3NC0xMy44OTctMTMuMjQ5LTIxLjE5MWMwLTAuMDEsMC0wLjAxLDAtMC4wMQ0KCWMtMC4wODQtMS4yMjMtMC4xMjUtMi40NTYtMC4xMjUtMy42ODhWMTgxLjkwNmMwLTE5LjU4MSwxMC40NDktMzcuNjY5LDI3LjM5Ny00Ny40N2wxNjguOTctOTcuNTQxDQoJYzE2Ljk0OC05LjgwMSwzNy44MjUtOS44MDEsNTQuNzg0LDBsMTM1LjE2OCw3OC4wMzNsMzMuODEzLDE5LjUwOEM0NjEuMDkzLDEzOS40ODMsNDY4LjA5MywxNDYuNzQ1LDQ3Mi44MzcsMTU1LjI2MXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDU3OUU7IiBkPSJNNDc5Ljc2NSwxODEuOTA2djE5NS4wODJjMCwxLjIzMy0wLjA0MiwyLjQ2Ni0wLjEyNSwzLjY4OGMwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWwtMjA5LjkyLTEyMS4xNzdsMjE1LjczLTEyNC41MzFDNDc3LjMwOSwxNjMuMjg2LDQ3OS43NjUsMTcyLjQxOSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRjJGMkYyOyIgZD0iTTMyMS42NjMsMzE3LjA0OGMtMTIuODA0LDIzLjA2MS0zNy4zOTgsMzguNjY0LTY1LjY0OSwzOC42NjQNCgkJYy00MS40NDcsMC03NS4wNDYtMzMuNTk5LTc1LjA0Ni03NS4wNDZzMzMuNTk5LTc1LjA0Niw3NS4wNDYtNzUuMDQ2YzI3LjcwNCwwLDUxLjg5MSwxNS4wMDksNjQuODk5LDM3LjMzNWw2Ni4zNTMtMzguMzA1DQoJCWMtMjYuMjM0LTQ1LjIzLTc1LjIwMS03NS42NC0xMzEuMjUyLTc1LjY0Yy04My43NTQsMC0xNTEuNjU0LDY3Ljg4NS0xNTEuNjU0LDE1MS42NTRjMCw4My43NTQsNjcuOTAxLDE1MS42NTQsMTUxLjY1NCwxNTEuNjU0DQoJCWM1Ni41OTcsMCwxMDUuOTU1LTMxLjAwMywxMzIuMDAyLTc2Ljk2OEwzMjEuNjYzLDMxNy4wNDh6Ii8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0YyRjJGMjsiIHBvaW50cz0iNDA0LjkwMiwyNjkuNzU2IDM4Ny42NjEsMjY5Ljc1NiAzODcuNjYxLDI1Mi41MTUgMzcwLjk0MywyNTIuNTE1IDM3MC45NDMsMjY5Ljc1NiANCgkJMzUzLjcwMiwyNjkuNzU2IDM1My43MDIsMjg2LjQ3NCAzNzAuOTQzLDI4Ni40NzQgMzcwLjk0MywzMDMuNzE1IDM4Ny42NjEsMzAzLjcxNSAzODcuNjYxLDI4Ni40NzQgNDA0LjkwMiwyODYuNDc0IAkiLz4NCgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRjJGMkYyOyIgcG9pbnRzPSI0NjcuNTk2LDI2OS43NTYgNDUwLjM1NSwyNjkuNzU2IDQ1MC4zNTUsMjUyLjUxNSA0MzMuNjM3LDI1Mi41MTUgNDMzLjYzNywyNjkuNzU2IA0KCQk0MTYuMzk2LDI2OS43NTYgNDE2LjM5NiwyODYuNDc0IDQzMy42MzcsMjg2LjQ3NCA0MzMuNjM3LDMwMy43MTUgNDUwLjM1NSwzMDMuNzE1IDQ1MC4zNTUsMjg2LjQ3NCA0NjcuNTk2LDI4Ni40NzQgCSIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            R
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="no-bullets ">
+     
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            JavaScript
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                                C
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star-fill filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>   
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            Assembly
+                            </span>
+                            <span class="ability-score">
+                                <i class="bi bi-star-fill filled "></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                                <i class="bi bi-star filled"></i>
+                            </span>
+                        </li>   
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <hr>
+        <div  id="skills" class="container">
+            <h3 >Languages</h3>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 ">
+                    <ul class="no-bullets ">
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                                Spanish
+                            </span>
+                            <span class="ability-score">
+                                Mother Tongue
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            English
+                            </span>
+                            <span class="ability-score">
+                                Fluent
+                            </span>
+                        </li>
+                        <li class="list-group-item-action">
+                            <span class="ability ">
+                            German
+                            </span>
+                            <span class="ability-score">
+                            Fluent
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="projects" class="container">
-        <h2 id="section"> Projects </h2>
+            <h2 id="section"> Projects </h2>
     </div>
     <div class="contact" class="container">
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
+
