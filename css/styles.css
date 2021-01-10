@@ -1,0 +1,119 @@
+.background{
+    background-image: url("../images/newyork.jpg");
+    background-size: cover; 
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(177, 0, 29, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media(min-width: 1200px){
+  .container{
+    padding: 40px 180px !important;
+    margin: auto !important;
+  }
+}
+.top-container{
+  position: relative;
+  top: 34%;
+  z-index: 4;
+  text-align: center;
+}
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif !important;
+    
+  }
+
+@media(min-width: 1200px){
+  #h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+  }
+}
+#h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+
+}
+#hr {
+  border: 2px solid white;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 50%;
+  
+}
+#h2 {
+  color:white;
+font-weight: lighter;
+}
+#section{
+  color: #B1001D;
+  font-size: 54px !important;
+  text-align: center;
+  font-weight: lighter;
+  margin: 20px 0;
+
+}
+
+h3{
+  font-weight: lighter;
+  color: #B1001D;
+  margin-bottom: 20px !important;
+}
+.experience {
+margin-bottom: 20px !important ;
+} 
+h4{
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+p{
+  font-weight: 300 !important;
+  margin-bottom: 0 !important;
+}
+.cropper{
+  width: 235px;
+  height: 235px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #F2EED8 !important;
+  position: relative;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+img{
+  display: block;
+  height: 100%;
+  width: auto;
+  object-position: right top !important;
+}
+
+#experience{
+  background-color: #F2EED8;
+}
+.lead{
+  text-align: center;
+  font-size: medium;
+}
+hr{
+  background-color: gray !important;
+  margin: 40px 0 !important;
+}
+svg{
+  fill: #B1001D;
+}
+.location{
+  color:#B1001D;
+  margin-top:20px;
+}
