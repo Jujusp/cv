@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
     <title>My personal site</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".nav" data-offset="50">
     <div class="background">  
         <div class="layer">
             <div class="top-container container">
@@ -22,722 +22,772 @@
             </div>
         </div>  
     </div>
-    <div id="profile" class="container" >
-        <h2 id="section"> Profile </h2>
-        <p class="lead">
-            Enthusiastic programmer  
-        </p>
-        <hr>
-        <div class="row">
-            <div class="col-md-4">
-                <h3> About me</h3>
-                <p>
-                    Hi ny name is Juan Felipe Rubio! I'm a web developer and programmer who enjoys challenges, competitive programming and web development.
-                    I'm at my third year of university at los Andes University which is located in Bogotá, Colombia. I enjoy reading, playing videogames and travelling. I'm a coffee addict and I wont leave the last pizza slice.                
-                </p>
-            </div>
-            <div class="col-md-4 ">
-                <div class="cropper">
-                    <img id="imgProf" src="./images/descarga3.png">
+    <div>
+        <nav class="nav navbar navbar-default na d-none d-md-block" id="navbar-example" role="navigation">
+                <ul id="navbara" >
+                    <li><a  href="#profile" >Profile</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#abilities">Abilities</a></li>
+                    <li><a  href="#projects">Projects</a></li>
+                    <li><a  href="#contact">Contact </a></li>
+                </ul>
+        </nav>
+        <div id="profile" class="container" >
+            <h2 id="section"> Profile </h2>
+            <p class="lead">
+                Enthusiastic programmer  
+            </p>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3> About me</h3>
+                    <p>
+                        Hi ny name is Juan Felipe Rubio! I'm a web developer and programmer who enjoys challenges, competitive programming and web development.
+                        I'm at my third year of university at los Andes University which is located in Bogotá, Colombia. I enjoy reading, playing videogames and travelling. I'm a coffee addict and I wont leave the last pizza slice.                
+                    </p>
+                </div>
+                <div class="col-md-4 " >
+                    <div class="cropper">
+                        <img id="imgProf" src="./images/descarga3.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3> Details</h3>
+                    <p>
+                        <strong> Name: </strong> 
+                        <br>
+                        Juan Felipe Rubio 
+                        <br>
+                        <strong> Age: </strong>
+                        <br>
+                        20
+                        <br>
+                            <strong> Location: </strong>
+                            <br>
+                            Bogotá, Colombia
+                            <br>
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h3> Details</h3>
-                <p>
-                    <strong> Name: </strong> 
-                    <br>
-                    Juan Felipe Rubio 
-                    <br>
-                    <strong> Age: </strong>
-                    <br>
-                    20
-                    <br>
-                        <strong> Location: </strong>
-                        <br>
-                        Bogotá, Colombia
-                        <br>
-                </p>
-            </div>
+
         </div>
+        <div id="experience" class="container">
+            <h2 id="section"> Experience </h2>
+            <p>
 
-    </div>
-    <div id="experience" class="container">
-        <h2 id="section"> Experience </h2>
-        <p>
+            </p>
+            <h3>
+                Education
+            </h3>
+            <div class ="experiences">
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h4>
+                                Universidad de los Andes
+                            </h4>
+                            <p>
+                                2017 - current
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Bachelor - Computing Engineer  (Minor in German language and culture)
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            During my time in college I got to learn about a lot of different programming languages,
+                            technologies, architectures, framweworks, infrastructure and BI among others. The first year
+                            was Object-oriented where we learned mainly Java but we also developed full-stack apps with SQL, Python, C++ (CP ICMP), HTML5, CSS, Angular.
+                            The third year we navigated throug the world of Analytics, BI and also more low-level concepts and languages like Assembly, C, Threads, Locks, Stress-testing, Software Architecture, Bussiness Architecture, etc.
 
-        </p>
-        <h3>
-            Education
-        </h3>
-        <div class ="experiences">
-            <div class="experience row">
-                <div class="col-md-4">
-                    <div class="row">
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <span class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        Bogotá, Colombia</span>  
+                    </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Universidad Católica de Chile
+                        </h4>
+                        <p>
+                            Feb 2020 - Jun 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Introduction to Python
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Everything from small concepts and instructions to variable types and a snippet of object-oriented programming.
+
+                        </p>
+                        <br class="d-sm-block d-md-none">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location"> Online  </span>
+                    </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Google
+                        </h4>
+                        <p>
+                            Aug 2020 - Dec 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Google Cloud Platform Fundamentals: Core Infrastructure
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Course where I learned important concepts and terminology for working with Google Cloud Platform (GCP). I learned about many of
+                            the computing and storage services, including Google App Engine, Google Compute Engine, Google Kubernetes Engine, Google Cloud Storage, Google Cloud SQL, and BigQuery.
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location">  Online  </span>              
+                    </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            University of California San Diego, National Research University Higher School of Economics
+                        </h4>
+                        <p>
+                            Aug 2020 - Oct 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Algorithmic Toolbox
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            The course covers basic algorithmic techniques and ideas for computational problems arising frequently in practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming. We will learn a lot of theory: how to sort data and how it helps for searching; how to break a large problem into pieces and solve them recursively; when it makes sense to proceed greedily; how dynamic programming is used in genomic studies. You will practice solving computational problems, designing new algorithms, and implementing solutions efficiently (so that they run in less than a second).
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location">Online </span>               
+                    </div>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Kantonsschule am Burggraben - Rotary International
+                        </h4>
+                        <p>
+                            Jan 2017 - Jan 2018
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Twelve year of high school
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            I had the amazing opportunity of studying a year abroad with Rotary International in Switzerland. I learned about new cultures and growed my network by sharing with my class mates and families.
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location"> Saint Gallen, Switzerland </span>               
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h3>
+                Work
+            </h3>
+            <div class="experiences">
+                <div class="experience row">
+                    <div class="col-md-4">
                         <h4>
                             Universidad de los Andes
                         </h4>
                         <p>
-                            2017 - current
+                            July 2020 - December 2020
                         </p>
                     </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Undergraduate Teaching Assistant for Transaction Systems
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Assisted and guided students with doubts on SQL and databases knowledge.                    
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location">Bogotá, Colombia  </span>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <strong>
-                        Bachelor - Computing Engineer  (Minor in German language and culture)
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        During my time in college I got to learn about a lot of different programming languages,
-                         technologies, architectures, framweworks, infrastructure and BI among others. The first year
-                         was Object-oriented where we learned mainly Java but we also developed full-stack apps with SQL, Python, C++ (CP ICMP), HTML5, CSS, Angular.
-                         The third year we navigated throug the world of Analytics, BI and also more low-level concepts and languages like Assembly, C, Threads, Locks, Stress-testing, Software Architecture, Bussiness Architecture, etc.
-
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                     <span class="location">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                      </svg>
-                      Bogotá, Colombia</span>  
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Universidad de los Andes
+                        </h4>
+                        <p>
+                            Jan 2020 - April 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Assistant in the development of IT solutions for the Admissions and Registry Office
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Automated the digital certificate issuing process, integrating two control tools that work on 70% of the cases.
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location">Bogotá, Colombia  </span>
+                    </div>
                 </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Universidad Católica de Chile
-                    </h4>
-                    <p>
-                         Feb 2020 - Jun 2020
-                    </p>
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Universidad de los Andes
+                        </h4>
+                        <p>
+                            Jan 2020 - April 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Assistant in the development of IT solutions for the Admissions and Registry Office
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Automated the digital certificate issuing process, integrating two control tools that covers on 70% of the cases.
+                            Developed postgraduates web page.
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location">Bogotá, Colombia  </span>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <strong>
-                        Introduction to Python
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Everything from small concepts and instructions to variable types and a snippet of object-oriented programming.
-
-                    </p>
-                    <br class="d-sm-block d-md-none">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                      </svg>
-                      <span class="location"> Online  </span>
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Google
-                    </h4>
-                    <p>
-                        Aug 2020 - Dec 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Google Cloud Platform Fundamentals: Core Infrastructure
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Course where I learned important concepts and terminology for working with Google Cloud Platform (GCP). I learned about many of
-                        the computing and storage services, including Google App Engine, Google Compute Engine, Google Kubernetes Engine, Google Cloud Storage, Google Cloud SQL, and BigQuery.
-                        <span class="glyphicon glyphicon-map-marker"></span>
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
-                      <span class="location">  Online  </span>              
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        University of California San Diego, National Research University Higher School of Economics
-                    </h4>
-                    <p>
-                        Aug 2020 - Oct 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Algorithmic Toolbox
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        The course covers basic algorithmic techniques and ideas for computational problems arising frequently in practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming. We will learn a lot of theory: how to sort data and how it helps for searching; how to break a large problem into pieces and solve them recursively; when it makes sense to proceed greedily; how dynamic programming is used in genomic studies. You will practice solving computational problems, designing new algorithms, and implementing solutions efficiently (so that they run in less than a second).
-                        <span class="glyphicon glyphicon-map-marker"></span>
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                      </svg>
-                      <span class="location">Online </span>               
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Kantonsschule am Burggraben - Rotary International
-                    </h4>
-                    <p>
-                        Jan 2017 - Jan 2018
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Twelve year of high school
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        I had the amazing opportunity of studying a year abroad with Rotary International in Switzerland. I learned about new cultures and growed my network by sharing with my class mates and families.
-                        <span class="glyphicon glyphicon-map-marker"></span>
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                      </svg>
-                      <span class="location"> Saint Gallen, Switzerland </span>               
+                <div class="experience row">
+                    <div class="col-md-4">
+                        <h4>
+                            Universidad de los Andes
+                        </h4>
+                        <p>
+                            Feb 2020 - June 2020
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>
+                            Undergraduate Teaching Assistant for Introduction to programming
+                        </strong>
+                        <p class="d-none d-sm-block">
+                            Assisted and guided 26 students with any of their doubts on Python syntax.
+                        </span>
+                        </p>
+                        <br class="d-sm-block d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        <span class="location"> Bogotá, Colombia  </span>
+                    </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <h3>
-            Work
-        </h3>
-        <div class="experiences">
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Universidad de los Andes
-                    </h4>
-                    <p>
-                        July 2020 - December 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Undergraduate Teaching Assistant for Transaction Systems
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Assisted and guided students with doubts on SQL and databases knowledge.                    
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
-                    <span class="location">Bogotá, Colombia  </span>
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Universidad de los Andes
-                    </h4>
-                    <p>
-                        Jan 2020 - April 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Assistant in the development of IT solutions for the Admissions and Registry Office
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Automated the digital certificate issuing process, integrating two control tools that work on 70% of the cases.
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
-                    <span class="location">Bogotá, Colombia  </span>
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Universidad de los Andes
-                    </h4>
-                    <p>
-                        Jan 2020 - April 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Assistant in the development of IT solutions for the Admissions and Registry Office
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Automated the digital certificate issuing process, integrating two control tools that covers on 70% of the cases.
-                        Developed postgraduates web page.
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
-                    <span class="location">Bogotá, Colombia  </span>
-                </div>
-            </div>
-            <div class="experience row">
-                <div class="col-md-4">
-                    <h4>
-                        Universidad de los Andes
-                    </h4>
-                    <p>
-                        Feb 2020 - June 2020
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <strong>
-                        Undergraduate Teaching Assistant for Introduction to programming
-                    </strong>
-                    <p class="d-none d-sm-block">
-                        Assisted and guided 26 students with any of their doubts on Python syntax.
-                    </span>
-                    </p>
-                    <br class="d-sm-block d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                    </svg>
-                    <span class="location"> Bogotá, Colombia  </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="abilities" class="container">
-        <h2 id="section"> Abilities </h2>
-        <div  id="skills" class="container">
-            <h3>Technologies</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullets ">
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            Object-oriented Programming
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            SCRUM
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            UML
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            SQL
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                                Visual Studio Code
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                                Eclipse
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Google Cloud Platform (GCP)
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            HTML
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                                CSS
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Pycharm
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            DJango
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            MVC Pattern
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            REST
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                
-                    </ul>
-                </div>  
-                <div class="col-md-6">
-                    <ul class="no-bullets">
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Git
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            MongoDB
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            AWS
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Illustrator
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Photoshop
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            Angular
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability">
-                            ReactJS
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                    </ul>
+        <div id="abilities" class="container">
+            <h2 id="section"> Abilities </h2>
+            <div  id="skills" class="container">
+                <h3>Technologies</h3>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <ul class="no-bullets ">
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                OOP
+                                </span>
+                                <span class="ability-score ml-2">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                SCRUM
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                UML
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                SQL
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                    VSCode 
+                                </span>
+                                <span class="ability-score ml-2">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                    Eclipse
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                GCP
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                HTML
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                    CSS
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                Pycharm
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                DJango
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                MVC
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                REST
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                    
+                        </ul>
+                    </div>  
+                    <div class="col-md-6">
+                        <ul class="no-bullets">
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                Git
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                MongoDB
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                AWS
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                Illustrator
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                Photoshop
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                Angular
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability">
+                                ReactJS
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div  id="skills" class="container">
-            <h3>Programming Languages</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="no-bullets ">
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                                Java
-                                <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMS45OTggNTExLjk5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjk5OCA1MTEuOTk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojREIzODBFOyIgZD0iTTI1My40NjQsOTQuODY5Yy0yMy42NTgsMTYuNjM5LTUwLjQ3MSwzNS40OTgtNjQuODM4LDY2LjY5OQ0KCQljLTI0Ljk1NCw1NC40MzUsNTEuMDYyLDExMy44MTIsNTQuMzExLDExNi4zMTNjMC43NTUsMC41ODEsMS42NTksMC44NzEsMi41NiwwLjg3MWMwLjk1NywwLDEuOTE1LTAuMzI3LDIuNjkzLTAuOTc5DQoJCWMxLjUwOS0xLjI2MiwxLjkzNy0zLjQwNiwxLjAzMS01LjE1MmMtMC4yNzUtMC41My0yNy41NjEtNTMuNTMtMjYuNTQ3LTkxLjU1MmMwLjM1OS0xMy4yNDMsMTguODkyLTI4LjI2NiwzOC41MTItNDQuMTcxDQoJCWMxNy45Ny0xNC41NjgsMzguMzQtMzEuMDc5LDUwLjI1OC01MC4zOTRjMjYuMTY0LTQyLjUxNi0yLjkxNi04NC4zMjItMy4yMTMtODQuNzRjLTEuMTU1LTEuNjIyLTMuMjg3LTIuMjA5LTUuMTEtMS40MQ0KCQljLTEuODIxLDAuODA0LTIuODMsMi43NzMtMi40MTQsNC43MmMwLjA1OSwwLjI3Nyw1LjcxNCwyNy45MjMtMTAuMDIyLDU2LjQwNkMyODQuMjAzLDczLjI1LDI2OS45NTksODMuMjY4LDI1My40NjQsOTQuODY5eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEQjM4MEU7IiBkPSJNMzUzLjEzNywxMTMuNjE3YzEuNjY5LTEuMjU3LDIuMTU5LTMuNTUsMS4xNS01LjM4Yy0xLjAxMS0xLjgzLTMuMjExLTIuNjM3LTUuMTY1LTEuODk1DQoJCWMtNC4wMTksMS41MjgtOTguNDE2LDM3LjkxNS05OC40MTYsODEuODhjMCwzMC4zMDcsMTIuOTQ2LDQ2LjMxNywyMi4zOTksNTguMDA5YzMuNzA4LDQuNTg2LDYuOTA5LDguNTQ2LDcuOTY0LDExLjkyNw0KCQljMi45Nyw5Ljc0My00LjA2NiwyNy4zNTMtNy4wMjUsMzMuMzE3Yy0wLjg1MywxLjcxNC0wLjQzNSwzLjc5MiwxLjAxNiw1LjA0NGMwLjc4NCwwLjY3NywxLjc2MywxLjAyMSwyLjc0MywxLjAyMQ0KCQljMC44MzQsMCwxLjY3Mi0wLjI0OCwyLjM5Ni0wLjc1MmMxLjYyMy0xLjEyOCwzOS42NjctMjguMDI2LDMyLjg0NC02MC40MzNjLTIuNTQyLTEyLjMxOC04LjU5NS0yMS4zMTgtMTMuOTM2LTI5LjI2DQoJCWMtOC4yNzQtMTIuMzA1LTE0LjI1LTIxLjE5My01LjE4NC0zNy42MDlDMzA0LjU0NSwxNTAuMzM4LDM1Mi42NSwxMTMuOTgxLDM1My4xMzcsMTEzLjYxN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTA3LjQxOCwyOTguMjM2Yy0xLjYxOCw0Ljg0NS0wLjg1NCw5LjY1MSwyLjIwNywxMy45MDNjMTAuMjMzLDE0LjIwNyw0Ni40OCwyMi4wMjksMTAyLjA2OCwyMi4wMjkNCgkJYzAuMDAzLDAsMC4wMDUsMCwwLjAwNywwYzcuNTMyLDAsMTUuNDg0LTAuMTQ4LDIzLjYyOS0wLjQ0Yzg4Ljg3NS0zLjE4MSwxMjEuODM5LTMwLjg2OSwxMjMuMTk5LTMyLjA0Ng0KCQljMS40ODItMS4yODMsMS44NzgtMy40MTksMC45NTctNS4xNDdjLTAuOTIyLTEuNzI3LTIuOTA5LTIuNTk1LTQuODA4LTIuMDcyYy0zMS4zMDEsOC41NDYtODkuNzQ4LDExLjU4LTEzMC4yODgsMTEuNTgNCgkJYy00NS4zNjMsMC02OC40NjUtMy4yNjgtNzQuMTIxLTUuNjgxYzIuOTAyLTMuOTg1LDIwLjgwMi0xMS4xMDEsNDIuOTgzLTE1LjQ2NGMyLjEyLTAuNDE2LDMuNTc3LTIuMzc0LDMuMzY3LTQuNTI0DQoJCXMtMi4wMTYtMy43OS00LjE3Ny0zLjc5QzE3OS40MzksMjc2LjU4NCwxMTQuMjM0LDI3Ny42MjgsMTA3LjQxOCwyOTguMjM2eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNNDA0LjgxMiwyNjkuNzE4Yy0xOC4zMzEsMC0zNS43MTQsOS4xODgtMzYuNDQ2LDkuNTc3Yy0xLjY5NSwwLjkwOC0yLjU1NSwyLjg1Mi0yLjA5LDQuNzINCgkJYzAuNDY3LDEuODY1LDIuMTQ0LDMuMTc2LDQuMDY3LDMuMTc4YzAuMzg5LDAsMzkuMTAyLDAuMzE3LDQyLjYwOCwyMi40MzZjMy4xMDYsMTkuMDgyLTM2LjYyOSw1MC01Mi4yMDIsNjAuMzA0DQoJCWMtMS42ODIsMS4xMTMtMi4zMzUsMy4yNjMtMS41NTQsNS4xMjNjMC42NjUsMS41ODMsMi4yMDYsMi41NzMsMy44NjgsMi41NzNjMC4yOSwwLDAuNTg0LTAuMDMsMC44NzYtMC4wOTINCgkJYzMuNjk2LTAuNzkxLDkwLjQwNi0xOS44OTksODEuMjM4LTcwLjM4NEM0MzkuNTg0LDI3Ni4yMTMsNDIwLjEzOCwyNjkuNzE4LDQwNC44MTIsMjY5LjcxOHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTM0NS4zNDcsMzYzLjc1NWMwLjMwMi0xLjYxNy0wLjM3MS0zLjI2Mi0xLjcxNy00LjIwN2wtMjAuNzkxLTE0LjU2Mw0KCQljLTEuMDE0LTAuNzEtMi4yOTUtMC45MzMtMy40ODUtMC42MThjLTAuMjE3LDAuMDU1LTIxLjk1OSw1Ljc3MS01My41MjUsOS4yNzZjLTEyLjUyOCwxLjQwNS0yNi41NiwyLjE0Ny00MC41ODIsMi4xNDcNCgkJYy0zMS41NTgsMC01Mi4xOTItMy43MDgtNTUuMTk3LTYuNDI4Yy0wLjM5OC0wLjc2NC0wLjI3Mi0xLjExMS0wLjIwMS0xLjMwNGMwLjU0Ni0xLjUxOCwzLjQ3Mi0zLjMyMiw1LjM1OC00LjAzNg0KCQljMi4wODMtMC43NzEsMy4yMDYtMy4wMzMsMi41NTgtNS4xNTdjLTAuNjQ2LTIuMTI3LTIuODM3LTMuMzc4LTQuOTk5LTIuODU5Yy0yMC44NTYsNS4wMzMtMzEuMDU0LDEyLjA3MS0zMC4zMTIsMjAuOTE4DQoJCWMxLjMxOCwxNS42ODYsMzcuNjUsMjMuNzM3LDY4LjM2NSwyNS44NjVjNC40MTcsMC4zMDIsOS4xOTQsMC40NTUsMTQuMTk1LDAuNDU1YzAuMDAzLDAsMC4wMDUsMCwwLjAwOCwwDQoJCWM1MS4wNzQsMCwxMTYuNTUtMTYuMDI1LDExNy4yMDQtMTYuMTg4QzM0My44MjUsMzY2LjY2NiwzNDUuMDQ0LDM2NS4zNzUsMzQ1LjM0NywzNjMuNzU1eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTg4LjYwMiwzOTcuNDE5YzEuNTc1LTEuMDI0LDIuMjczLTIuOTcxLDEuNzE0LTQuNzY0Yy0wLjU1Ny0xLjc5My0yLjIzNC0yLjk3MS00LjExOC0yLjk0Ng0KCQljLTIuNzk1LDAuMDc0LTI3LjM0OSwxLjE4Mi0yOS4wNjgsMTYuODE1Yy0wLjUyLDQuNjcyLDAuODE4LDguOTQxLDMuOTc5LDEyLjY4NmM4LjgxNiwxMC40NDgsMzIuNjE0LDE2LjY1OCw3Mi43NDEsMTguOTg0DQoJCWM0Ljc0NywwLjI4NSw5LjU2OSwwLjQyOCwxNC4zMzQsMC40MjhjNTEuMDE1LDAsODUuMzczLTE1Ljk3Myw4Ni44MTItMTYuNjUzYzEuMzk1LTAuNjYsMi4zMTUtMi4wMzEsMi4zOTctMy41NzENCgkJcy0wLjY4Ny0zLjAwMS0yLjAwMy0zLjgwNmwtMjYuMjc1LTE2LjA0Yy0wLjkxMi0wLjU1Ni0yLjAwMy0wLjc0LTMuMDQzLTAuNTI3Yy0wLjE2NiwwLjAzNS0xNi44NDksMy40OTUtNDIuMDI2LDYuOTEzDQoJCWMtNC43NjQsMC42NDgtMTAuNzMsMC45NzctMTcuNzMsMC45NzdjLTI1LjE1LDAtNTMuMTI0LTQuMTA5LTU4LjQ4OS02LjhDMTg3Ljc0OSwzOTguNjEzLDE4Ny44NDgsMzk3Ljk3NSwxODguNjAyLDM5Ny40MTl6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzczQTFGQjsiIGQ9Ik0yMjQuNDA4LDQ4Ni44NWMxMTYuODU0LTAuMDk5LDE3OS41NzEtMjAuODgsMTkxLjY1My0zMy45NTdjNC4yNzctNC42MjYsNC43MzktOS4wMDYsNC4zNzYtMTEuODY3DQoJCWMtMC44OTgtNy4wNC03LjMxMS0xMS4zNS04LjAzOC0xMS44MThjLTEuNzU0LTEuMTI4LTQuMTA4LTAuODMzLTUuNDc2LDAuNzQ1Yy0xLjM2NSwxLjU3OC0xLjM5NywzLjg4NC0wLjAyNyw1LjQ2MQ0KCQljMC43MzcsMC45NDgsMS4xNjMsMi41MzUtMC45OTIsNC42OTJjLTQuODMsNC41MTEtNTMuNTQ1LDE4LjIwNC0xMzQuNjU2LDIyLjMxOGMtMTEuMTExLDAuNTc3LTIyLjc2NSwwLjg3MS0zNC42MzYsMC44NzMNCgkJYy03Mi42MjMsMC0xMjUuNzcyLTkuOTQ4LTEzMi43NDktMTUuNzQ0YzIuNjg5LTMuODY0LDIxLjQ4OS0xMC4wMzcsNDEuNDgyLTEzLjUyOWMyLjI1My0wLjM5MywzLjc3NS0yLjUxNiwzLjQyNi00Ljc3Ng0KCQljLTAuMzQ5LTIuMjU5LTIuNDMyLTMuODE0LTQuNzA5LTMuNTE5Yy0wLjU2NCwwLjA3Ny0yLjQ3OCwwLjE5MS00LjY5NCwwLjMyN2MtMzIuOTg4LDIuMDE0LTcxLjEwOSw2LjUwMy03My4wOTgsMjMuNQ0KCQljLTAuNjA0LDUuMTc5LDAuOTM1LDkuODgxLDQuNTc2LDEzLjk3M2M4LjkwOSwxMC4wMSwzNC41MTYsMjMuMzE5LDE1My41NTgsMjMuMzE5QzIyNC40MDYsNDg2Ljg1LDIyNC40MDYsNDg2Ljg1LDIyNC40MDgsNDg2Ljg1eiINCgkJLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTQzOS4wMTMsNDU2LjU3OGMtMS42NTItMC43NjQtMy42MDQtMC4zNzgtNC44MzYsMC45NTJjLTAuMTcxLDAuMTg1LTE3Ljc0LDE4LjU1Ni03MC41NjQsMjkuMzQ0DQoJCWMtMjAuMjIzLDQuMDUyLTU4LjE4Myw2LjEwNy0xMTIuODI2LDYuMTA3Yy01NC43NDUsMC0xMDYuODM4LTIuMTU0LTEwNy4zNTctMi4xNzZjLTIuMTc2LTAuMTA2LTQuMDM3LDEuNDc2LTQuMzMzLDMuNjE4DQoJCWMtMC4yOTcsMi4xNCwxLjA4Myw0LjE1OCwzLjE4NCw0LjY1OGMwLjU0MiwwLjEyOCw1NS4xMzUsMTIuOTE4LDEyOS43NzksMTIuOTE4YzM1LjgwMSwwLDcwLjYzOS0yLjkwNywxMDMuNTQ4LTguNjQ1DQoJCWM2MS4zNjEtMTAuNzU3LDY1LjY1Ny00MS4xODMsNjUuODEtNDIuNDczQzQ0MS42MzIsNDU5LjA3OCw0NDAuNjYyLDQ1Ny4zNDIsNDM5LjAxMyw0NTYuNTc4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            Python
-                            <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtMjIwdjExMGMwIDExLjA0Njg3NSA4Ljk1MzEyNSAyMCAyMCAyMHY3MWMwIDQxLjQyMTg3NSAzMy41NzgxMjUgNzUgNzUgNzVoNzBjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di00MWgtODkuNTc0MjE5Yy04LjA3ODEyNSAwLTE1LjAyNzM0My02LjIwNzAzMS0xNS40MTAxNTYtMTQuMjczNDM4LS40MDYyNS04LjYxNzE4NyA2LjQ2MDkzNy0xNS43MjY1NjIgMTQuOTg0Mzc1LTE1LjcyNjU2MmgxNjFjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di03MGMwLTQxLjQyMTg3NS0zMy41NzgxMjUtNzUtNzUtNzV6bTAgMCIgZmlsbD0iI2ZlZWY1NSIvPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtOTB2Mjc2aDM1YzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNDFoLTg5LjU3NDIxOWMtOC4wNzgxMjUgMC0xNS4wMjczNDMtNi4yMDcwMzEtMTUuNDEwMTU2LTE0LjI3MzQzOC0uNDA2MjUtOC42MTcxODcgNi40NjA5MzctMTUuNzI2NTYyIDE0Ljk4NDM3NS0xNS43MjY1NjJoMTYxYzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNzBjMC00MS40MjE4NzUtMzMuNTc4MTI1LTc1LTc1LTc1em0wIDAiIGZpbGw9IiNmZWRjMDAiLz48cGF0aCBkPSJtMTg2IDI1NmgxNDBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1aC03MGMtNDEuMzU1NDY5IDAtNzUgMzMuNjQ0NTMxLTc1IDc1djQxaDkwYzguMjg1MTU2IDAgMTUgNi43MTQ4NDQgMTUgMTVzLTYuNzE0ODQ0IDE1LTE1IDE1aC0xNjFjLTQxLjM1NTQ2OSAwLTc1IDMzLjY0NDUzMS03NSA3NXY3MGMwIDQxLjM1NTQ2OSAzMy42NDQ1MzEgNzUgNzUgNzVoNzF2LTcwYzAtMjIuMDg5ODQ0IDE3LjkxMDE1Ni00MCA0MC00MHptMCAwIiBmaWxsPSIjNzhlMGVhIi8+PHBhdGggZD0ibTI5MSAwaC0zNXYyNTZoNzBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1em0wIDAiIGZpbGw9IiMzY2NjZGQiLz48cGF0aCBkPSJtMjM2IDYxYzAgOC4yODUxNTYtNi43MTQ4NDQgMTUtMTUgMTVzLTE1LTYuNzE0ODQ0LTE1LTE1IDYuNzE0ODQ0LTE1IDE1LTE1IDE1IDYuNzE0ODQ0IDE1IDE1em0wIDAiIGZpbGw9IiM1YTVhNmUiLz48cGF0aCBkPSJtMzA2IDQ1MWMwIDguMjg1MTU2LTYuNzE0ODQ0IDE1LTE1IDE1cy0xNS02LjcxNDg0NC0xNS0xNSA2LjcxNDg0NC0xNSAxNS0xNSAxNSA2LjcxNDg0NCAxNSAxNXptMCAwIiBmaWxsPSIjNDY0NjVhIi8+PC9zdmc+" />
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            C++
-                            <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzJEM0EzRTsiIGQ9Ik01MTIsMjU2YzAsNDUuMjY1LTExLjc0NSw4Ny43ODItMzIuMzYsMTI0LjY3N2MwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWMtNi43MjksOS43OC0xNC4xMjcsMTkuMDY5LTIyLjEyLDI3Ljc5NGMtMzQuOTk0LDM4LjI1NC04MS40NSw2NS44MzktMTMzLjkzNSw3Ny4zMTINCglDMjkzLjI2MSw1MDkuOTYyLDI3NC44NzEsNTEyLDI1Niw1MTJzLTM3LjI3MS0yLjAzOC01NC45ODMtNS45MjVjLTUyLjQ3NS0xMS40ODMtOTguOTMxLTM5LjA1OC0xMzMuOTE0LTc3LjMwMg0KCWMtNy43NTMtOC40NjQtMTQuOTQyLTE3LjQ1LTIxLjQ5NC0yNi44OTZjLTQuNzU0LTYuODIzLTkuMTc0LTEzLjg5Ny0xMy4yNDktMjEuMTkxYzAtMC4wMSwwLTAuMDEsMC0wLjAxDQoJQzExLjc0NSwzNDMuNzgyLDAsMzAxLjI2NSwwLDI1NkMwLDExNC42MTUsMTE0LjYxNSwwLDI1NiwwUzUxMiwxMTQuNjE1LDUxMiwyNTZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDA0Mjg0OyIgZD0iTTQ3OS43NjUsMTgxLjkwNnYxOTUuMDgyYzAsMS4yMzMtMC4wNDIsMi40NjYtMC4xMjUsMy42OTkNCgljLTkuNzA3LDE3LjM3Ny0yMS4zODksMzMuNDk5LTM0LjczMiw0OC4wNzZsLTEzMy45MzUsNzcuMzEyQzI5My4yNjEsNTA5Ljk2MiwyNzQuODcxLDUxMiwyNTYsNTEycy0zNy4yNzEtMi4wMzgtNTQuOTgzLTUuOTI1DQoJbC0xMTAuMDctNjMuNTNsLTIzLjg0NS0xMy43NzJjLTEzLjM1NC0xNC41NzYtMjUuMDM2LTMwLjcxLTM0Ljc0My00OC4wODZjLTAuMDg0LTEuMjMzLTAuMTI1LTIuNDY2LTAuMTI1LTMuNjk5VjE4MS45MDYNCgljMC0xOS41ODEsMTAuNDU5LTM3LjY2OSwyNy4zOTctNDcuNDdsMTY4Ljk3LTk3LjU0MWMxNi45NTktOS44MDEsMzcuODM2LTkuODAxLDU0Ljc5NCwwbDEzNS4xNTgsNzguMDMzbDMzLjgxMywxOS41MDgNCglDNDY5LjMwNSwxNDQuMjM4LDQ3OS43NjUsMTYyLjMyNSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojNjM5OUQ0OyIgZD0iTTQ3Mi44MzcsMTU1LjI2MUw0NS42MSw0MDEuODc4Yy00Ljc1NC02LjgyMy05LjE3NC0xMy44OTctMTMuMjQ5LTIxLjE5MWMwLTAuMDEsMC0wLjAxLDAtMC4wMQ0KCWMtMC4wODQtMS4yMjMtMC4xMjUtMi40NTYtMC4xMjUtMy42ODhWMTgxLjkwNmMwLTE5LjU4MSwxMC40NDktMzcuNjY5LDI3LjM5Ny00Ny40N2wxNjguOTctOTcuNTQxDQoJYzE2Ljk0OC05LjgwMSwzNy44MjUtOS44MDEsNTQuNzg0LDBsMTM1LjE2OCw3OC4wMzNsMzMuODEzLDE5LjUwOEM0NjEuMDkzLDEzOS40ODMsNDY4LjA5MywxNDYuNzQ1LDQ3Mi44MzcsMTU1LjI2MXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDU3OUU7IiBkPSJNNDc5Ljc2NSwxODEuOTA2djE5NS4wODJjMCwxLjIzMy0wLjA0MiwyLjQ2Ni0wLjEyNSwzLjY4OGMwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWwtMjA5LjkyLTEyMS4xNzdsMjE1LjczLTEyNC41MzFDNDc3LjMwOSwxNjMuMjg2LDQ3OS43NjUsMTcyLjQxOSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRjJGMkYyOyIgZD0iTTMyMS42NjMsMzE3LjA0OGMtMTIuODA0LDIzLjA2MS0zNy4zOTgsMzguNjY0LTY1LjY0OSwzOC42NjQNCgkJYy00MS40NDcsMC03NS4wNDYtMzMuNTk5LTc1LjA0Ni03NS4wNDZzMzMuNTk5LTc1LjA0Niw3NS4wNDYtNzUuMDQ2YzI3LjcwNCwwLDUxLjg5MSwxNS4wMDksNjQuODk5LDM3LjMzNWw2Ni4zNTMtMzguMzA1DQoJCWMtMjYuMjM0LTQ1LjIzLTc1LjIwMS03NS42NC0xMzEuMjUyLTc1LjY0Yy04My43NTQsMC0xNTEuNjU0LDY3Ljg4NS0xNTEuNjU0LDE1MS42NTRjMCw4My43NTQsNjcuOTAxLDE1MS42NTQsMTUxLjY1NCwxNTEuNjU0DQoJCWM1Ni41OTcsMCwxMDUuOTU1LTMxLjAwMywxMzIuMDAyLTc2Ljk2OEwzMjEuNjYzLDMxNy4wNDh6Ii8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0YyRjJGMjsiIHBvaW50cz0iNDA0LjkwMiwyNjkuNzU2IDM4Ny42NjEsMjY5Ljc1NiAzODcuNjYxLDI1Mi41MTUgMzcwLjk0MywyNTIuNTE1IDM3MC45NDMsMjY5Ljc1NiANCgkJMzUzLjcwMiwyNjkuNzU2IDM1My43MDIsMjg2LjQ3NCAzNzAuOTQzLDI4Ni40NzQgMzcwLjk0MywzMDMuNzE1IDM4Ny42NjEsMzAzLjcxNSAzODcuNjYxLDI4Ni40NzQgNDA0LjkwMiwyODYuNDc0IAkiLz4NCgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRjJGMkYyOyIgcG9pbnRzPSI0NjcuNTk2LDI2OS43NTYgNDUwLjM1NSwyNjkuNzU2IDQ1MC4zNTUsMjUyLjUxNSA0MzMuNjM3LDI1Mi41MTUgNDMzLjYzNywyNjkuNzU2IA0KCQk0MTYuMzk2LDI2OS43NTYgNDE2LjM5NiwyODYuNDc0IDQzMy42MzcsMjg2LjQ3NCA0MzMuNjM3LDMwMy43MTUgNDUwLjM1NSwzMDMuNzE1IDQ1MC4zNTUsMjg2LjQ3NCA0NjcuNTk2LDI4Ni40NzQgCSIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            R
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                    </ul>
+            <hr>
+            <div  id="skills" class="container">
+                <h3>Programming Languages</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="no-bullets ">
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                    Java
+                                    <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMS45OTggNTExLjk5OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjk5OCA1MTEuOTk4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojREIzODBFOyIgZD0iTTI1My40NjQsOTQuODY5Yy0yMy42NTgsMTYuNjM5LTUwLjQ3MSwzNS40OTgtNjQuODM4LDY2LjY5OQ0KCQljLTI0Ljk1NCw1NC40MzUsNTEuMDYyLDExMy44MTIsNTQuMzExLDExNi4zMTNjMC43NTUsMC41ODEsMS42NTksMC44NzEsMi41NiwwLjg3MWMwLjk1NywwLDEuOTE1LTAuMzI3LDIuNjkzLTAuOTc5DQoJCWMxLjUwOS0xLjI2MiwxLjkzNy0zLjQwNiwxLjAzMS01LjE1MmMtMC4yNzUtMC41My0yNy41NjEtNTMuNTMtMjYuNTQ3LTkxLjU1MmMwLjM1OS0xMy4yNDMsMTguODkyLTI4LjI2NiwzOC41MTItNDQuMTcxDQoJCWMxNy45Ny0xNC41NjgsMzguMzQtMzEuMDc5LDUwLjI1OC01MC4zOTRjMjYuMTY0LTQyLjUxNi0yLjkxNi04NC4zMjItMy4yMTMtODQuNzRjLTEuMTU1LTEuNjIyLTMuMjg3LTIuMjA5LTUuMTEtMS40MQ0KCQljLTEuODIxLDAuODA0LTIuODMsMi43NzMtMi40MTQsNC43MmMwLjA1OSwwLjI3Nyw1LjcxNCwyNy45MjMtMTAuMDIyLDU2LjQwNkMyODQuMjAzLDczLjI1LDI2OS45NTksODMuMjY4LDI1My40NjQsOTQuODY5eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEQjM4MEU7IiBkPSJNMzUzLjEzNywxMTMuNjE3YzEuNjY5LTEuMjU3LDIuMTU5LTMuNTUsMS4xNS01LjM4Yy0xLjAxMS0xLjgzLTMuMjExLTIuNjM3LTUuMTY1LTEuODk1DQoJCWMtNC4wMTksMS41MjgtOTguNDE2LDM3LjkxNS05OC40MTYsODEuODhjMCwzMC4zMDcsMTIuOTQ2LDQ2LjMxNywyMi4zOTksNTguMDA5YzMuNzA4LDQuNTg2LDYuOTA5LDguNTQ2LDcuOTY0LDExLjkyNw0KCQljMi45Nyw5Ljc0My00LjA2NiwyNy4zNTMtNy4wMjUsMzMuMzE3Yy0wLjg1MywxLjcxNC0wLjQzNSwzLjc5MiwxLjAxNiw1LjA0NGMwLjc4NCwwLjY3NywxLjc2MywxLjAyMSwyLjc0MywxLjAyMQ0KCQljMC44MzQsMCwxLjY3Mi0wLjI0OCwyLjM5Ni0wLjc1MmMxLjYyMy0xLjEyOCwzOS42NjctMjguMDI2LDMyLjg0NC02MC40MzNjLTIuNTQyLTEyLjMxOC04LjU5NS0yMS4zMTgtMTMuOTM2LTI5LjI2DQoJCWMtOC4yNzQtMTIuMzA1LTE0LjI1LTIxLjE5My01LjE4NC0zNy42MDlDMzA0LjU0NSwxNTAuMzM4LDM1Mi42NSwxMTMuOTgxLDM1My4xMzcsMTEzLjYxN3oiLz4NCjwvZz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTA3LjQxOCwyOTguMjM2Yy0xLjYxOCw0Ljg0NS0wLjg1NCw5LjY1MSwyLjIwNywxMy45MDNjMTAuMjMzLDE0LjIwNyw0Ni40OCwyMi4wMjksMTAyLjA2OCwyMi4wMjkNCgkJYzAuMDAzLDAsMC4wMDUsMCwwLjAwNywwYzcuNTMyLDAsMTUuNDg0LTAuMTQ4LDIzLjYyOS0wLjQ0Yzg4Ljg3NS0zLjE4MSwxMjEuODM5LTMwLjg2OSwxMjMuMTk5LTMyLjA0Ng0KCQljMS40ODItMS4yODMsMS44NzgtMy40MTksMC45NTctNS4xNDdjLTAuOTIyLTEuNzI3LTIuOTA5LTIuNTk1LTQuODA4LTIuMDcyYy0zMS4zMDEsOC41NDYtODkuNzQ4LDExLjU4LTEzMC4yODgsMTEuNTgNCgkJYy00NS4zNjMsMC02OC40NjUtMy4yNjgtNzQuMTIxLTUuNjgxYzIuOTAyLTMuOTg1LDIwLjgwMi0xMS4xMDEsNDIuOTgzLTE1LjQ2NGMyLjEyLTAuNDE2LDMuNTc3LTIuMzc0LDMuMzY3LTQuNTI0DQoJCXMtMi4wMTYtMy43OS00LjE3Ny0zLjc5QzE3OS40MzksMjc2LjU4NCwxMTQuMjM0LDI3Ny42MjgsMTA3LjQxOCwyOTguMjM2eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNNDA0LjgxMiwyNjkuNzE4Yy0xOC4zMzEsMC0zNS43MTQsOS4xODgtMzYuNDQ2LDkuNTc3Yy0xLjY5NSwwLjkwOC0yLjU1NSwyLjg1Mi0yLjA5LDQuNzINCgkJYzAuNDY3LDEuODY1LDIuMTQ0LDMuMTc2LDQuMDY3LDMuMTc4YzAuMzg5LDAsMzkuMTAyLDAuMzE3LDQyLjYwOCwyMi40MzZjMy4xMDYsMTkuMDgyLTM2LjYyOSw1MC01Mi4yMDIsNjAuMzA0DQoJCWMtMS42ODIsMS4xMTMtMi4zMzUsMy4yNjMtMS41NTQsNS4xMjNjMC42NjUsMS41ODMsMi4yMDYsMi41NzMsMy44NjgsMi41NzNjMC4yOSwwLDAuNTg0LTAuMDMsMC44NzYtMC4wOTINCgkJYzMuNjk2LTAuNzkxLDkwLjQwNi0xOS44OTksODEuMjM4LTcwLjM4NEM0MzkuNTg0LDI3Ni4yMTMsNDIwLjEzOCwyNjkuNzE4LDQwNC44MTIsMjY5LjcxOHoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTM0NS4zNDcsMzYzLjc1NWMwLjMwMi0xLjYxNy0wLjM3MS0zLjI2Mi0xLjcxNy00LjIwN2wtMjAuNzkxLTE0LjU2Mw0KCQljLTEuMDE0LTAuNzEtMi4yOTUtMC45MzMtMy40ODUtMC42MThjLTAuMjE3LDAuMDU1LTIxLjk1OSw1Ljc3MS01My41MjUsOS4yNzZjLTEyLjUyOCwxLjQwNS0yNi41NiwyLjE0Ny00MC41ODIsMi4xNDcNCgkJYy0zMS41NTgsMC01Mi4xOTItMy43MDgtNTUuMTk3LTYuNDI4Yy0wLjM5OC0wLjc2NC0wLjI3Mi0xLjExMS0wLjIwMS0xLjMwNGMwLjU0Ni0xLjUxOCwzLjQ3Mi0zLjMyMiw1LjM1OC00LjAzNg0KCQljMi4wODMtMC43NzEsMy4yMDYtMy4wMzMsMi41NTgtNS4xNTdjLTAuNjQ2LTIuMTI3LTIuODM3LTMuMzc4LTQuOTk5LTIuODU5Yy0yMC44NTYsNS4wMzMtMzEuMDU0LDEyLjA3MS0zMC4zMTIsMjAuOTE4DQoJCWMxLjMxOCwxNS42ODYsMzcuNjUsMjMuNzM3LDY4LjM2NSwyNS44NjVjNC40MTcsMC4zMDIsOS4xOTQsMC40NTUsMTQuMTk1LDAuNDU1YzAuMDAzLDAsMC4wMDUsMCwwLjAwOCwwDQoJCWM1MS4wNzQsMCwxMTYuNTUtMTYuMDI1LDExNy4yMDQtMTYuMTg4QzM0My44MjUsMzY2LjY2NiwzNDUuMDQ0LDM2NS4zNzUsMzQ1LjM0NywzNjMuNzU1eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiM3M0ExRkI7IiBkPSJNMTg4LjYwMiwzOTcuNDE5YzEuNTc1LTEuMDI0LDIuMjczLTIuOTcxLDEuNzE0LTQuNzY0Yy0wLjU1Ny0xLjc5My0yLjIzNC0yLjk3MS00LjExOC0yLjk0Ng0KCQljLTIuNzk1LDAuMDc0LTI3LjM0OSwxLjE4Mi0yOS4wNjgsMTYuODE1Yy0wLjUyLDQuNjcyLDAuODE4LDguOTQxLDMuOTc5LDEyLjY4NmM4LjgxNiwxMC40NDgsMzIuNjE0LDE2LjY1OCw3Mi43NDEsMTguOTg0DQoJCWM0Ljc0NywwLjI4NSw5LjU2OSwwLjQyOCwxNC4zMzQsMC40MjhjNTEuMDE1LDAsODUuMzczLTE1Ljk3Myw4Ni44MTItMTYuNjUzYzEuMzk1LTAuNjYsMi4zMTUtMi4wMzEsMi4zOTctMy41NzENCgkJcy0wLjY4Ny0zLjAwMS0yLjAwMy0zLjgwNmwtMjYuMjc1LTE2LjA0Yy0wLjkxMi0wLjU1Ni0yLjAwMy0wLjc0LTMuMDQzLTAuNTI3Yy0wLjE2NiwwLjAzNS0xNi44NDksMy40OTUtNDIuMDI2LDYuOTEzDQoJCWMtNC43NjQsMC42NDgtMTAuNzMsMC45NzctMTcuNzMsMC45NzdjLTI1LjE1LDAtNTMuMTI0LTQuMTA5LTU4LjQ4OS02LjhDMTg3Ljc0OSwzOTguNjEzLDE4Ny44NDgsMzk3Ljk3NSwxODguNjAyLDM5Ny40MTl6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6IzczQTFGQjsiIGQ9Ik0yMjQuNDA4LDQ4Ni44NWMxMTYuODU0LTAuMDk5LDE3OS41NzEtMjAuODgsMTkxLjY1My0zMy45NTdjNC4yNzctNC42MjYsNC43MzktOS4wMDYsNC4zNzYtMTEuODY3DQoJCWMtMC44OTgtNy4wNC03LjMxMS0xMS4zNS04LjAzOC0xMS44MThjLTEuNzU0LTEuMTI4LTQuMTA4LTAuODMzLTUuNDc2LDAuNzQ1Yy0xLjM2NSwxLjU3OC0xLjM5NywzLjg4NC0wLjAyNyw1LjQ2MQ0KCQljMC43MzcsMC45NDgsMS4xNjMsMi41MzUtMC45OTIsNC42OTJjLTQuODMsNC41MTEtNTMuNTQ1LDE4LjIwNC0xMzQuNjU2LDIyLjMxOGMtMTEuMTExLDAuNTc3LTIyLjc2NSwwLjg3MS0zNC42MzYsMC44NzMNCgkJYy03Mi42MjMsMC0xMjUuNzcyLTkuOTQ4LTEzMi43NDktMTUuNzQ0YzIuNjg5LTMuODY0LDIxLjQ4OS0xMC4wMzcsNDEuNDgyLTEzLjUyOWMyLjI1My0wLjM5MywzLjc3NS0yLjUxNiwzLjQyNi00Ljc3Ng0KCQljLTAuMzQ5LTIuMjU5LTIuNDMyLTMuODE0LTQuNzA5LTMuNTE5Yy0wLjU2NCwwLjA3Ny0yLjQ3OCwwLjE5MS00LjY5NCwwLjMyN2MtMzIuOTg4LDIuMDE0LTcxLjEwOSw2LjUwMy03My4wOTgsMjMuNQ0KCQljLTAuNjA0LDUuMTc5LDAuOTM1LDkuODgxLDQuNTc2LDEzLjk3M2M4LjkwOSwxMC4wMSwzNC41MTYsMjMuMzE5LDE1My41NTgsMjMuMzE5QzIyNC40MDYsNDg2Ljg1LDIyNC40MDYsNDg2Ljg1LDIyNC40MDgsNDg2Ljg1eiINCgkJLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojNzNBMUZCOyIgZD0iTTQzOS4wMTMsNDU2LjU3OGMtMS42NTItMC43NjQtMy42MDQtMC4zNzgtNC44MzYsMC45NTJjLTAuMTcxLDAuMTg1LTE3Ljc0LDE4LjU1Ni03MC41NjQsMjkuMzQ0DQoJCWMtMjAuMjIzLDQuMDUyLTU4LjE4Myw2LjEwNy0xMTIuODI2LDYuMTA3Yy01NC43NDUsMC0xMDYuODM4LTIuMTU0LTEwNy4zNTctMi4xNzZjLTIuMTc2LTAuMTA2LTQuMDM3LDEuNDc2LTQuMzMzLDMuNjE4DQoJCWMtMC4yOTcsMi4xNCwxLjA4Myw0LjE1OCwzLjE4NCw0LjY1OGMwLjU0MiwwLjEyOCw1NS4xMzUsMTIuOTE4LDEyOS43NzksMTIuOTE4YzM1LjgwMSwwLDcwLjYzOS0yLjkwNywxMDMuNTQ4LTguNjQ1DQoJCWM2MS4zNjEtMTAuNzU3LDY1LjY1Ny00MS4xODMsNjUuODEtNDIuNDczQzQ0MS42MzIsNDU5LjA3OCw0NDAuNjYyLDQ1Ny4zNDIsNDM5LjAxMyw0NTYuNTc4eiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                Python
+                                <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtMjIwdjExMGMwIDExLjA0Njg3NSA4Ljk1MzEyNSAyMCAyMCAyMHY3MWMwIDQxLjQyMTg3NSAzMy41NzgxMjUgNzUgNzUgNzVoNzBjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di00MWgtODkuNTc0MjE5Yy04LjA3ODEyNSAwLTE1LjAyNzM0My02LjIwNzAzMS0xNS40MTAxNTYtMTQuMjczNDM4LS40MDYyNS04LjYxNzE4NyA2LjQ2MDkzNy0xNS43MjY1NjIgMTQuOTg0Mzc1LTE1LjcyNjU2MmgxNjFjNDEuNDIxODc1IDAgNzUtMzMuNTc4MTI1IDc1LTc1di03MGMwLTQxLjQyMTg3NS0zMy41NzgxMjUtNzUtNzUtNzV6bTAgMCIgZmlsbD0iI2ZlZWY1NSIvPjxwYXRoIGQ9Im00MzcgMTQ2aC05MXY5MGgtOTB2Mjc2aDM1YzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNDFoLTg5LjU3NDIxOWMtOC4wNzgxMjUgMC0xNS4wMjczNDMtNi4yMDcwMzEtMTUuNDEwMTU2LTE0LjI3MzQzOC0uNDA2MjUtOC42MTcxODcgNi40NjA5MzctMTUuNzI2NTYyIDE0Ljk4NDM3NS0xNS43MjY1NjJoMTYxYzQxLjQyMTg3NSAwIDc1LTMzLjU3ODEyNSA3NS03NXYtNzBjMC00MS40MjE4NzUtMzMuNTc4MTI1LTc1LTc1LTc1em0wIDAiIGZpbGw9IiNmZWRjMDAiLz48cGF0aCBkPSJtMTg2IDI1NmgxNDBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1aC03MGMtNDEuMzU1NDY5IDAtNzUgMzMuNjQ0NTMxLTc1IDc1djQxaDkwYzguMjg1MTU2IDAgMTUgNi43MTQ4NDQgMTUgMTVzLTYuNzE0ODQ0IDE1LTE1IDE1aC0xNjFjLTQxLjM1NTQ2OSAwLTc1IDMzLjY0NDUzMS03NSA3NXY3MGMwIDQxLjM1NTQ2OSAzMy42NDQ1MzEgNzUgNzUgNzVoNzF2LTcwYzAtMjIuMDg5ODQ0IDE3LjkxMDE1Ni00MCA0MC00MHptMCAwIiBmaWxsPSIjNzhlMGVhIi8+PHBhdGggZD0ibTI5MSAwaC0zNXYyNTZoNzBjMjIuMDg5ODQ0IDAgNDAtMTcuOTEwMTU2IDQwLTQwdi0xNDFjMC00MS4zNTU0NjktMzMuNjQ0NTMxLTc1LTc1LTc1em0wIDAiIGZpbGw9IiMzY2NjZGQiLz48cGF0aCBkPSJtMjM2IDYxYzAgOC4yODUxNTYtNi43MTQ4NDQgMTUtMTUgMTVzLTE1LTYuNzE0ODQ0LTE1LTE1IDYuNzE0ODQ0LTE1IDE1LTE1IDE1IDYuNzE0ODQ0IDE1IDE1em0wIDAiIGZpbGw9IiM1YTVhNmUiLz48cGF0aCBkPSJtMzA2IDQ1MWMwIDguMjg1MTU2LTYuNzE0ODQ0IDE1LTE1IDE1cy0xNS02LjcxNDg0NC0xNS0xNSA2LjcxNDg0NC0xNSAxNS0xNSAxNSA2LjcxNDg0NCAxNSAxNXptMCAwIiBmaWxsPSIjNDY0NjVhIi8+PC9zdmc+" />
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                C++
+                                <img style="width: 25px; height: 25px; display: inline;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzJEM0EzRTsiIGQ9Ik01MTIsMjU2YzAsNDUuMjY1LTExLjc0NSw4Ny43ODItMzIuMzYsMTI0LjY3N2MwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWMtNi43MjksOS43OC0xNC4xMjcsMTkuMDY5LTIyLjEyLDI3Ljc5NGMtMzQuOTk0LDM4LjI1NC04MS40NSw2NS44MzktMTMzLjkzNSw3Ny4zMTINCglDMjkzLjI2MSw1MDkuOTYyLDI3NC44NzEsNTEyLDI1Niw1MTJzLTM3LjI3MS0yLjAzOC01NC45ODMtNS45MjVjLTUyLjQ3NS0xMS40ODMtOTguOTMxLTM5LjA1OC0xMzMuOTE0LTc3LjMwMg0KCWMtNy43NTMtOC40NjQtMTQuOTQyLTE3LjQ1LTIxLjQ5NC0yNi44OTZjLTQuNzU0LTYuODIzLTkuMTc0LTEzLjg5Ny0xMy4yNDktMjEuMTkxYzAtMC4wMSwwLTAuMDEsMC0wLjAxDQoJQzExLjc0NSwzNDMuNzgyLDAsMzAxLjI2NSwwLDI1NkMwLDExNC42MTUsMTE0LjYxNSwwLDI1NiwwUzUxMiwxMTQuNjE1LDUxMiwyNTZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDA0Mjg0OyIgZD0iTTQ3OS43NjUsMTgxLjkwNnYxOTUuMDgyYzAsMS4yMzMtMC4wNDIsMi40NjYtMC4xMjUsMy42OTkNCgljLTkuNzA3LDE3LjM3Ny0yMS4zODksMzMuNDk5LTM0LjczMiw0OC4wNzZsLTEzMy45MzUsNzcuMzEyQzI5My4yNjEsNTA5Ljk2MiwyNzQuODcxLDUxMiwyNTYsNTEycy0zNy4yNzEtMi4wMzgtNTQuOTgzLTUuOTI1DQoJbC0xMTAuMDctNjMuNTNsLTIzLjg0NS0xMy43NzJjLTEzLjM1NC0xNC41NzYtMjUuMDM2LTMwLjcxLTM0Ljc0My00OC4wODZjLTAuMDg0LTEuMjMzLTAuMTI1LTIuNDY2LTAuMTI1LTMuNjk5VjE4MS45MDYNCgljMC0xOS41ODEsMTAuNDU5LTM3LjY2OSwyNy4zOTctNDcuNDdsMTY4Ljk3LTk3LjU0MWMxNi45NTktOS44MDEsMzcuODM2LTkuODAxLDU0Ljc5NCwwbDEzNS4xNTgsNzguMDMzbDMzLjgxMywxOS41MDgNCglDNDY5LjMwNSwxNDQuMjM4LDQ3OS43NjUsMTYyLjMyNSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojNjM5OUQ0OyIgZD0iTTQ3Mi44MzcsMTU1LjI2MUw0NS42MSw0MDEuODc4Yy00Ljc1NC02LjgyMy05LjE3NC0xMy44OTctMTMuMjQ5LTIxLjE5MWMwLTAuMDEsMC0wLjAxLDAtMC4wMQ0KCWMtMC4wODQtMS4yMjMtMC4xMjUtMi40NTYtMC4xMjUtMy42ODhWMTgxLjkwNmMwLTE5LjU4MSwxMC40NDktMzcuNjY5LDI3LjM5Ny00Ny40N2wxNjguOTctOTcuNTQxDQoJYzE2Ljk0OC05LjgwMSwzNy44MjUtOS44MDEsNTQuNzg0LDBsMTM1LjE2OCw3OC4wMzNsMzMuODEzLDE5LjUwOEM0NjEuMDkzLDEzOS40ODMsNDY4LjA5MywxNDYuNzQ1LDQ3Mi44MzcsMTU1LjI2MXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMDU3OUU7IiBkPSJNNDc5Ljc2NSwxODEuOTA2djE5NS4wODJjMCwxLjIzMy0wLjA0MiwyLjQ2Ni0wLjEyNSwzLjY4OGMwLDAuMDEsMCwwLjAxLDAsMC4wMQ0KCWMtMy44OTcsNi45NjktOC4xMDgsMTMuNzQtMTIuNjEyLDIwLjI4MWwtMjA5LjkyLTEyMS4xNzdsMjE1LjczLTEyNC41MzFDNDc3LjMwOSwxNjMuMjg2LDQ3OS43NjUsMTcyLjQxOSw0NzkuNzY1LDE4MS45MDZ6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRjJGMkYyOyIgZD0iTTMyMS42NjMsMzE3LjA0OGMtMTIuODA0LDIzLjA2MS0zNy4zOTgsMzguNjY0LTY1LjY0OSwzOC42NjQNCgkJYy00MS40NDcsMC03NS4wNDYtMzMuNTk5LTc1LjA0Ni03NS4wNDZzMzMuNTk5LTc1LjA0Niw3NS4wNDYtNzUuMDQ2YzI3LjcwNCwwLDUxLjg5MSwxNS4wMDksNjQuODk5LDM3LjMzNWw2Ni4zNTMtMzguMzA1DQoJCWMtMjYuMjM0LTQ1LjIzLTc1LjIwMS03NS42NC0xMzEuMjUyLTc1LjY0Yy04My43NTQsMC0xNTEuNjU0LDY3Ljg4NS0xNTEuNjU0LDE1MS42NTRjMCw4My43NTQsNjcuOTAxLDE1MS42NTQsMTUxLjY1NCwxNTEuNjU0DQoJCWM1Ni41OTcsMCwxMDUuOTU1LTMxLjAwMywxMzIuMDAyLTc2Ljk2OEwzMjEuNjYzLDMxNy4wNDh6Ii8+DQoJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0YyRjJGMjsiIHBvaW50cz0iNDA0LjkwMiwyNjkuNzU2IDM4Ny42NjEsMjY5Ljc1NiAzODcuNjYxLDI1Mi41MTUgMzcwLjk0MywyNTIuNTE1IDM3MC45NDMsMjY5Ljc1NiANCgkJMzUzLjcwMiwyNjkuNzU2IDM1My43MDIsMjg2LjQ3NCAzNzAuOTQzLDI4Ni40NzQgMzcwLjk0MywzMDMuNzE1IDM4Ny42NjEsMzAzLjcxNSAzODcuNjYxLDI4Ni40NzQgNDA0LjkwMiwyODYuNDc0IAkiLz4NCgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRjJGMkYyOyIgcG9pbnRzPSI0NjcuNTk2LDI2OS43NTYgNDUwLjM1NSwyNjkuNzU2IDQ1MC4zNTUsMjUyLjUxNSA0MzMuNjM3LDI1Mi41MTUgNDMzLjYzNywyNjkuNzU2IA0KCQk0MTYuMzk2LDI2OS43NTYgNDE2LjM5NiwyODYuNDc0IDQzMy42MzcsMjg2LjQ3NCA0MzMuNjM3LDMwMy43MTUgNDUwLjM1NSwzMDMuNzE1IDQ1MC4zNTUsMjg2LjQ3NCA0NjcuNTk2LDI4Ni40NzQgCSIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                R
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="no-bullets ">
+        
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                JavaScript
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                    C
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star-fill filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>   
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                Assembly
+                                </span>
+                                <span class="ability-score">
+                                    <i class="bi bi-star-fill filled "></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                    <i class="bi bi-star filled"></i>
+                                </span>
+                            </li>   
+                        </ul>
+                    </div>    
                 </div>
-                <div class="col-md-6">
-                    <ul class="no-bullets ">
-     
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            JavaScript
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                                C
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star-fill filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>   
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            Assembly
-                            </span>
-                            <span class="ability-score">
-                                <i class="bi bi-star-fill filled "></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                                <i class="bi bi-star filled"></i>
-                            </span>
-                        </li>   
-                    </ul>
-                </div>    
             </div>
-        </div>
-        <hr>
-        <div  id="skills" class="container">
-            <div class="row">
-                <div class="col-md-8 ">
-                    <h3 >Languages</h3>
-                    <ul class="no-bullets ">
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                                Spanish
-                            </span>
-                            <span class="ability-score">
-                                Mother Tongue
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            English
-                            </span>
-                            <span class="ability-score">
+            <hr>
+            <div  id="skills" class="container">
+                <div class="row">
+                    <div class="col-md-8 ">
+                        <h3 >Languages</h3>
+                        <ul class="no-bullets ">
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                    Spanish
+                                </span>
+                                <span class="ability-score">
+                                    Mother Tongue
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                English
+                                </span>
+                                <span class="ability-score">
+                                    Fluent
+                                </span>
+                            </li>
+                            <li class="list-group-item-action">
+                                <span class="ability ">
+                                German
+                                </span>
+                                <span class="ability-score">
                                 Fluent
-                            </span>
-                        </li>
-                        <li class="list-group-item-action">
-                            <span class="ability ">
-                            German
-                            </span>
-                            <span class="ability-score">
-                            Fluent
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <div class="thought">Too serious for you?  </div>
-                    <div class="thought">Add me in League of Legends: Jujus (LAN).</div>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thought">Too serious for you?  </div>
+                        <div class="thought">Add me in League of Legends: Jujus (LAN).</div>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="projects" class="container">
-            <h2 id="section"> Projects </h2>
+        <div id="projects" class="container">
+                <h2 id="section"> Projects </h2>
+                <hr>
+                <div class="card mb-3" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/project1.jpeg" alt="Washington's network" class="project">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Washington’s Street Network Mapping</h5>
+                          <p class="card-text">Co-authored Graph theory project to map and visualize more than 400 000 traffic violations and graph-related algorithms, such as BFS, Dijkstra, and Prim, using Google maps API.</p>
+                          <ul  class="tags">
+                            <li><a class="tag">Java</a></li>
+                            <li><a class="tag">Google Maps API</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card mb-3"  >
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Chiper </h5>
+                                <p class="card-text">Led a team of 5 where we built an e-commerce website for Chiper, a company that provides inventory tools and products for neighborhood stores.</p>
+                                <ul  class="tags">
+                                    <li><a  class="tag">Django</a></li>
+                                    <li><a  class="tag">AWS</a></li>
+                                    <li><a  class="tag">Angular</a></li>
+                                    <li><a  class="tag">HTML</a></li>
+                                    <li><a  class="tag">CSS</a></li>
+
+                                  </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEu8PJaC-vVQw/company-logo_200_200/0?e=2159024400&v=beta&t=jlpoBeFazJ1ufyjHVAL2QOU7Ktb8V7UlS9J5Rz635kc" style="width: 200px; float:right" alt="Chiper's current logo" class="project">
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
     <div class="contact" class="container">
 
-    </div>
-    <div class="background-gray">
-        <div id="contact" class="container">
-            <h2 class="conta">Contact me!</h2>
+        <div class="background-gray">
+            <div id="contact" class="container">
+                <h2 class="conta">Contact me!</h2>
                 <p class="lead" style="color:#727878; text-align: center;">
                     "You can have everything in life you want if you will just help enough other people get what they want"<br> -- Zig Ziglar
                 </p>
-            <hr>
-<div class="row">
-<div class="col-md-6">
-    <ul class="no-bullets">
-        <li style="padding-top: 16px;">
-            <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-            <a href="www.linkedin.com/in/juan--rubio" target="_blank">
-                <span class="icon icon-linkedin"></span>
-                www.linkedin.com/in/juan--rubio
-            </a>    
-            </li>
-    </ul>
-</div>
-<div class="col-md-6">
-    <ul class="no-bullets">
-        <li>
-            <i class="bi bi-envelope mail" ></i>
-              <a href="mailto:jf.rubioperdomo@gmail.com">
-                <span class="icon icon-email"></span>
-                    jf.rubioperdomo@gmail.com			
-            </a>
-        </li>
-    </ul>
-</div>
-</div>
-</div>			
-</div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="no-bullets">
+                            <li style="padding-top: 16px;">
+                                <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                <a href="www.linkedin.com/in/juan--rubio" target="_blank">
+                                    <span class="icon icon-linkedin"></span>
+                                    www.linkedin.com/in/juan--rubio
+                                </a>    
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="no-bullets">
+                            <li>
+                                <i class="bi bi-envelope mail" ></i>
+                                <a href="mailto:jf.rubioperdomo@gmail.com">
+                                    <span class="icon icon-email"></span>
+                                    jf.rubioperdomo@gmail.com			
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>			
+        </div>
     </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
